@@ -1,29 +1,29 @@
-//Add Two Numbers with JavaScript
+// Use an Array to Store a Collection of Data
 
-var sum = 10 + 10;
+let yourArray = [ 2, "three", true, 8, false];
 
-sum = 20
+/* A more complex implementation of an array is known as a multi-dimensional array, 
+or an array that contains other arrays that contains JavaScript objects.*/
 
-
-//Subtract One Number from Another with JavaScript 
-
-var difference = 45 - 33;
-
-difference = 12
-
-
-//Multiply Two Numbers with JavaScript
-
-var product = 8 * 10;
-
-product = 80
-
-
-//Divide One Number by Another with JavaScript
-
-var quotient = 66 / 33;
-
-quotient = 2
-
-
-
+let complexArray = [
+  [
+    {
+      one: 1,
+      two: 2
+    },
+    {
+      three: 3,
+      four: 4
+    }
+  ],
+  [
+    {
+      a: "a",
+      b: "b"
+    },
+    {
+      c: "c",
+      d: “d”
+    }
+  ]
+];
